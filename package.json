@@ -1,0 +1,28 @@
+{
+  "name": "node-student-results",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "ltpa": "^0.1.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "karma start test/karma.conf.js"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "hbs": "^4.0.1",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.17.2",
+    "ltpa": "^0.1.5",
+    "mmih-financial-wellness": "^0.1.0",
+    "request": "^2.79.0",
+    "validator": "^6.2.0"
+  }
+}
