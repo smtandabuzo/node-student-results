@@ -8,7 +8,7 @@ module.exports = function (app){
      *
      */
     app.get('/mock/schools', function(req,res){
-        var result = 'Good';
-        res.send(result);
+        var schools = require('../data/schools.json');
+        res.send(schools);
     });
 }
